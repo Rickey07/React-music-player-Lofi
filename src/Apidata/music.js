@@ -45,7 +45,7 @@ function chillHop() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=15237",
             color: ["#2B3434", "#8E4D2A"],
             id: uuidv4(),
-            active: false
+            active: true
         },
         {
             name: "Cascade",
@@ -73,7 +73,7 @@ function chillHop() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=11768",
             color: ["#47609D", "#E88774"],
             id: uuidv4(),
-            active: true,
+            active: false,
           },
           {
             name: "Beaver Creek",

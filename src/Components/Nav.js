@@ -1,5 +1,5 @@
 import React from 'react';
-import { faMusic } from '@fortawesome/free-solid-svg-icons';
+import { faMusic , faTurnUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Nav({isLibraryActive,setIsLibraryActive}) {
@@ -16,7 +16,7 @@ export default function Nav({isLibraryActive,setIsLibraryActive}) {
   return (
     <nav>
         <div className="container">
-            <a href="/" className='brand-name'>Musify</a>
+            <a href="/" className='brand-name'>ChillTop<FontAwesomeIcon icon={faTurnUp} size="1x"/></a>
             <a href="/" className='button-menu' onClick={changeClass}>Library <FontAwesomeIcon icon={faMusic} size="1x"/></a>
         </div>
     </nav>

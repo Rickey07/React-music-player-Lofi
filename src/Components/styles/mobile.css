@@ -21,7 +21,7 @@
     transform: translateY(-100%);
   }
   .libraryOpen {
-    transform: translateY(85%);
+    transform: translateY(75%);
   }
 }
 @media screen and (max-width: 662px) {
