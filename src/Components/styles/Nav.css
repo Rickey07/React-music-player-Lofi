@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 0.7em;
+}
+nav .brand-name {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #101010;
+}
+nav .button-menu {
+  border: 1px solid black;
+  padding: 0.5em;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+nav .button-menu:hover {
+  background-color: #9f9f9f;
+  color: white;
+}/*# sourceMappingURL=Nav.css.map */

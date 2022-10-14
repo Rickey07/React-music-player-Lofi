@@ -1,0 +1,55 @@
+// Media queries for responsiveness.
+
+
+@media screen and (max-width: 800px) {
+    nav {
+        .container {
+            width: 90%;
+        }
+    }
+
+    .song-container {
+
+        img {
+            height: 15em;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h6 {
+            font-size: 1rem;
+        }
+    }
+
+    .player {
+        .current-song-tracker {
+            width: 80%;
+        }
+        
+        .player-keys {
+            width: 50%;
+        }
+    }
+    // .side-bar-menu {
+    //     // top: 150%;
+    // }
+
+    .libraryClose {
+        transform: translateY(-100%);
+        // transform: translateX(0%);
+        // display: none;
+    }
+
+    .libraryOpen {
+        transform: translateY(85%);
+    }
+   
+}
+
+@media screen and (max-width: 662px) {
+    .side-bar-menu {
+        width: 100%;
+    }
+}

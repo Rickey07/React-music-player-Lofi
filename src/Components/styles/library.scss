@@ -1,0 +1,87 @@
+.side-bar-menu {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s all ease;
+  
+    .heading-holder {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+  
+      .close {
+        background-color: white;
+        padding: 0.3em;
+        color: black;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+  
+    .library-container {
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 1em 1.5em;
+      width: auto;
+      justify-content: flex-start;
+      
+  
+      &:hover {
+        background-color: white;
+        color: black;
+        transition: 1s all;
+      }
+  
+      .library-image-container {
+        img {
+          height: 70px;
+          width: 70px;
+          margin: 0;
+          padding: 0;
+        }
+      }
+  
+      .library-content-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        h4 {
+          margin: 0;
+        }
+  
+        span {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  
+.active {
+    background-color: white;
+    color: black;
+    border-radius: .5em;
+    transform: scale(1.1);
+  }
+  
+  .libraryClose {
+    transform: translateX(-100%);
+    // display: none;
+  }
+  
+  .libraryOpen {
+    transform: translateX(0%);
+    // display: block;
+  }
+  

@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+  nav .container {
+    width: 90%;
+  }
+  .song-container img {
+    height: 15em;
+  }
+  .song-container h1 {
+    font-size: 1.5rem;
+  }
+  .song-container h6 {
+    font-size: 1rem;
+  }
+  .player .current-song-tracker {
+    width: 80%;
+  }
+  .player .player-keys {
+    width: 50%;
+  }
+  .libraryClose {
+    transform: translateY(-100%);
+  }
+  .libraryOpen {
+    transform: translateY(85%);
+  }
+}
+@media screen and (max-width: 662px) {
+  .side-bar-menu {
+    width: 100%;
+  }
+}/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,22 @@
+.song-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 1.2em;
+  height: 40%;
+  gap: 0.3rem;
+}
+.song-container img {
+  border-radius: 50%;
+  height: 20em;
+}
+.song-container h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.song-container h6 {
+  font-size: 1.2rem;
+  margin: 0;
+}/*# sourceMappingURL=Song.css.map */
