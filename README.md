@@ -3,7 +3,7 @@
 ## A simple music player built with the help of react and chillhop data.
 
 
-Live Project Link:- [chilltop](chilltop.netlify.app)
+Live Project Link:- [chilltop](https://chilltop.netlify.app)
 
 
 ### Want to contribute! Follow the Steps:- 
