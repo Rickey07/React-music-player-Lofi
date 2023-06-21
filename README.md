@@ -23,7 +23,13 @@ Live Project Link:- [chilltop](https://chilltop.netlify.app)
 3. Wait for sometime to install node modules.
 4. Run the command `npm start`.
 5. Enjoy :) .
+### Want to run it locally! Follow the Steps:-
 
+1. Clone it.
+2. Run the command `npm install` in your directory.
+3. Wait for sometime to install node modules.
+4. Run the command `npm start`.
+5. Enjoy :) .
 ### Acknowledgements:- 
 
 1. [chillhop](https:chillhop.com) :- For providing the data.
